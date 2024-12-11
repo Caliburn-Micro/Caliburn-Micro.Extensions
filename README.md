@@ -1,6 +1,12 @@
-# Caliburn-Micro.Extensions
+### Caliburn.Micro Extensions Project
 
-This repoistory will hold some extras for caliburn micro.
+- **Project Overview:**
+  - This project will provide templates for Caliburn.Micro.
+  - The release will include a code generator to simplify `INotifyPropertyChanged`.
 
-First extension will add a [NotifyPropertyChanged]  attribute which will generate some code for you to wire up the notify property change for you
+- **IValue Converters:**
+  - Bool to Visibility converter for all platforms, not just UWP.
+  - URL to Image converter.
+  - Decimal to String converter for custom currency formatting.
+  - DateTime to String converter for custom DateTime formatting.
 
