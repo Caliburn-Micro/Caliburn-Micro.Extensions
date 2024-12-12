@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  	<PropertyGroup>
+		<TargetFrameworks>net8.0-windows;net462</TargetFrameworks>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+		<UseWpf>true</UseWpf>
+		<LangVersion>latest</LangVersion>
+	</PropertyGroup>
+
+  	<ItemGroup>
+  	  <PackageReference Include="Microsoft.AspNet.WebApi.Client" Version="6.0.0" />
+  	</ItemGroup> 
+  	  
+
+</Project>
